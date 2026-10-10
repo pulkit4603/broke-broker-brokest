@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Dalal Desk</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231D5BC0'/%3E%3Cpolyline points='5,22 12,15 17,19 27,8' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap" id="app">
+  <header class="top">
+    <div class="brand"><h1>Dalal<span>.</span>Desk</h1><small id="today"></small></div>
+    <div class="actions">
+      <label class="chk"><input type="checkbox" id="live" checked> Live (every 30 s)</label>
+      <button class="btn primary" id="refresh">Refresh</button>
+      <button class="btn" id="add">Add widget</button>
+      <button class="btn ghost" id="edit">Customize</button>
+      <button class="btn ghost" id="theme" aria-label="Toggle theme">Theme</button>
+    </div>
+  </header>
+  <div class="sessions" id="sessions"></div>
+  <div class="tape" id="tape" hidden><div class="tape-in" id="tapeIn"></div></div>
+  <div class="banner" id="banner" hidden></div>
+  <div class="status" id="status"></div>
+  <main class="grid" id="grid" aria-live="polite"></main>
+  <p class="foot">Prices come from Yahoo Finance and are usually delayed (about 15 minutes for NSE/BSE). Headlines come from the publishers' RSS feeds. Explanations written by Claude can contain mistakes. This is a learning tool, not investment advice. Exchange holidays are not shown in the session clock.</p>
+</div>
+<div class="drawer" id="drawer" hidden><aside class="panel" id="panel" role="dialog" aria-label="Add a widget"></aside></div>
+<script src="glossary.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

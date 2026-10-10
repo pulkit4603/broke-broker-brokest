@@ -1,0 +1,23 @@
+{
+  "lists": {
+    "nifty50": {
+      "name": "NIFTY 50",
+      "symbols": ["ADANIENT.NS","ADANIPORTS.NS","APOLLOHOSP.NS","ASIANPAINT.NS","AXISBANK.NS","BAJAJ-AUTO.NS","BAJFINANCE.NS","BAJAJFINSV.NS","BEL.NS","BHARTIARTL.NS","CIPLA.NS","COALINDIA.NS","DRREDDY.NS","EICHERMOT.NS","ETERNAL.NS","GRASIM.NS","HCLTECH.NS","HDFCBANK.NS","HDFCLIFE.NS","HINDALCO.NS","HINDUNILVR.NS","ICICIBANK.NS","INDIGO.NS","INFY.NS","ITC.NS","JIOFIN.NS","JSWSTEEL.NS","KOTAKBANK.NS","LT.NS","M&M.NS","MARUTI.NS","MAXHEALTH.NS","NESTLEIND.NS","NTPC.NS","ONGC.NS","POWERGRID.NS","RELIANCE.NS","SBILIFE.NS","SBIN.NS","SHRIRAMFIN.NS","SUNPHARMA.NS","TATACONSUM.NS","TMPV.NS","TATASTEEL.NS","TCS.NS","TECHM.NS","TITAN.NS","TRENT.NS","ULTRACEMCO.NS","WIPRO.NS"]
+    },
+    "sensex": {
+      "name": "SENSEX 30",
+      "symbols": ["ADANIPORTS.BO","ASIANPAINT.BO","AXISBANK.BO","BAJAJFINSV.BO","BAJFINANCE.BO","BEL.BO","BHARTIARTL.BO","ETERNAL.BO","HCLTECH.BO","HDFCBANK.BO","HINDUNILVR.BO","ICICIBANK.BO","INFY.BO","ITC.BO","KOTAKBANK.BO","LT.BO","M&M.BO","MARUTI.BO","NTPC.BO","POWERGRID.BO","RELIANCE.BO","SBIN.BO","SUNPHARMA.BO","TATASTEEL.BO","TCS.BO","TECHM.BO","TITAN.BO","TMPV.BO","TRENT.BO","ULTRACEMCO.BO"]
+    },
+    "us_megacap": {
+      "name": "US mega caps",
+      "symbols": ["AAPL","MSFT","NVDA","AMZN","GOOGL","META","TSLA","AVGO","BRK-B","JPM","LLY","V","NFLX","ORCL","WMT"]
+    }
+  },
+  "feeds": [
+    { "name": "Economic Times · Markets", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms" },
+    { "name": "Economic Times · Stocks", "url": "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms" },
+    { "name": "Moneycontrol · Market reports", "url": "https://www.moneycontrol.com/rss/marketreports.xml" },
+    { "name": "Mint · Markets", "url": "https://www.livemint.com/rss/markets" },
+    { "name": "CNBC · Top news (US)", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html" }
+  ]
+}
